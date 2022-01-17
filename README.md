@@ -1,4 +1,4 @@
-# <a href="https://www.sethmcclimans.net">sethmcclimans.net/</a>
+# <a href="https://www.sethmcclimans.net/">sethmcclimans.net</a>
 
 ![alt text](https://github.com/seth-mc/sethportfolio/blob/media/index.png)
 
