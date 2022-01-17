@@ -16,7 +16,7 @@ The Source Code of my website website portfolio, which has three folders:
 <ul>
   <li><i>Django</i>, with the latest patch version to maintain security.</li>
   <li><i>G-Unicorn</i>, which is the wsgi server that was used on the Google App Engine. </li>
-  <li><i>Pandas</i> for data manipulation in the backend. <li>
+  <li><i>Pandas</i> for data manipulation in the backend. </li>
   <li><i>YFinance</i> for API calls to get ticker information. </li>
 </ul>
 
