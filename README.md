@@ -9,7 +9,7 @@ The Source Code of my website website portfolio, which has three folders:
 <ul>
   <li>  <b>Work:</b> HTML that explains my past projects in paragraphs, images, and media. </li>
   <li> <b>Invest:</b> Backend (Python) that grabs the latest dataset from YFinance for a list of tickers in a .txt file, and sends the <i>JsonResponse</i> to the Frontend (Java) that displays the dataset on a CanvasJS chart. </li>
-  <li> <b>Work:</b> HTML/CSS that shows some of my designs and personal work.</li>
+  <li> <b>Design:</b> HTML/CSS that shows some of my designs and personal work.</li>
 </ul>
 
 ## Dependancies
