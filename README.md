@@ -4,7 +4,7 @@
 
 ## Description
 
-The Source Code of my website website portfolio, which has three folders:
+The Source Code of my website portfolio, which has three folders:
 
 <ul>
   <li>  <b>Work:</b> HTML that explains my past projects in paragraphs, images, and media. </li>
