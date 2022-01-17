@@ -1,4 +1,4 @@
-# www.sethmcclimans.net/
+# sethmcclimans.net/
 
 ![alt text](https://github.com/seth-mc/sethportfolio/blob/media/index.png)
 
