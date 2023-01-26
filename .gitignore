@@ -135,6 +135,8 @@ dmypy.json
 # pytype static type analyzer
 .pytype/
 
-# Cython debug symbols
+# Python debug symbols
 cython_debug/
 \static
+
+# Docker Commands .txt I created

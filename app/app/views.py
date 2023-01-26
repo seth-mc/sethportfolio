@@ -34,11 +34,15 @@ def getData(request):
         print("1. Making API Request...\n")
 
         try:
-            with open(staticfiles_storage.path('vendor/data/mytickers.txt'), "r") as fh:
-                tickers = fh.read().splitlines()
+            with open(staticfiles_storage.path('vendor/data/mytickers.json'), "r") as fh:
+                tdata = json.load(fh)
+                tickers = []
+                for i in range(len(tdata)):
+                    tickers.append(tdata[i]['ticker'])
+                    
         except FileNotFoundError:
                 print("Tickers not found... entering in placeholders")
-                tickers = ['^GSPC', 'CRWD', 'DDOG', 'SNOW', 'SOFI', 'UPST', 'BTC-CAD', 'ETH-CAD', 'IOTX-CAD', 'CEL-CAD', 'HEX-CAD']
+                tickers = ["^GSPC","AAPL","BRK-B","AMZN","SHOP","CRWD","ZS","NET","S","BTC-CAD","ETH-CAD"]
         # gets data from yfinance
         today = datetime.today().strftime("%Y-%m-%d")
         pattern = re.compile('\w{2,4}-CAD')

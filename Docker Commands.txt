@@ -1,0 +1,11 @@
+Docker Commands:
+
+docker-compose run --rm app sh -c "python manage.py collectstatic"
+
+docker-compose run --rm app sh -c "python manage.py makemigrations"
+
+docker-compose run --rm app sh -c "python manage.py migrate"
+
+docker-compose up
+
+docker-compose -f docker-compose-deploy.yml run --rm gcloud sh -c "gcloud app deploy --project sethportfolio"
